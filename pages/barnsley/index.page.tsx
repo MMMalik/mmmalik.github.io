@@ -164,7 +164,7 @@ const Barnsley: NextPage = () => {
             <Drawer open={open} title={'Settings'} toggle={toggle}>
                 <div className="mb-5">
                     <div className="flex justify-between items-center mb-3">
-                        <h4 className="text-xl">{'Iterations'}</h4>
+                        <h4 className="text-l">{'Iterations'}</h4>
                         <span>{iterations}</span>
                     </div>
                     <Slider
@@ -177,7 +177,7 @@ const Barnsley: NextPage = () => {
                 </div>
                 <div className="mb-5">
                     <div className="flex justify-between items-center mb-3">
-                        <h4 className="text-xl">{'Alpha'}</h4>
+                        <h4 className="text-l">{'Alpha'}</h4>
                         <span>{alpha}</span>
                     </div>
                     <Slider
@@ -190,7 +190,7 @@ const Barnsley: NextPage = () => {
                 </div>
                 <div className="mb-5">
                     <div className="flex justify-between items-center mb-3">
-                        <h4 className="text-xl">{'Zoom'}</h4>
+                        <h4 className="text-l">{'Zoom'}</h4>
                         <span>{zoom}%</span>
                     </div>
                     <Slider
@@ -204,14 +204,14 @@ const Barnsley: NextPage = () => {
                 <div className="flex justify-between mb-5">
                     <div>
                         <div className="flex justify-between items-center mb-3">
-                            <h4 className="text-xl">{'Fill Color'}</h4>
+                            <h4 className="text-l">{'Fill Color'}</h4>
                         </div>
                         <HexColorPicker color={color} onChange={changeColor} />
                         <div>{color}</div>
                     </div>
                     <div>
                         <div className="flex justify-between items-center mb-3">
-                            <h4 className="text-xl">{'Background Color'}</h4>
+                            <h4 className="text-l">{'Background Color'}</h4>
                         </div>
                         <HexColorPicker
                             color={bgColor}

@@ -10,7 +10,7 @@ const Button: React.FC<Props> = ({ children, color = 'primary', ...props }) => {
     return (
         <button
             className={clsx(
-                'transition-colors rounded-md p-3 uppercase h-12',
+                'transition-colors rounded-md p-2 uppercase h-10',
                 colors[color]
             )}
             {...props}

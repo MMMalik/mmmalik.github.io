@@ -21,7 +21,7 @@ const Drawer: React.FC<Props> = ({
                     open ? 'right-0' : '-right-1/3'
                 )}
             >
-                <h4 className="text-2xl uppercase">{title}</h4>
+                <h4 className="text-xl uppercase">{title}</h4>
                 <div className="flex-1 mt-10">{children}</div>
                 <div className="flex justify-end gap-2">{actions}</div>
             </div>
