@@ -162,8 +162,8 @@ const Barnsley: NextPage = () => {
     return (
         <div>
             <Drawer open={open} title={'Settings'} toggle={toggle}>
-                <div className="mb-5">
-                    <div className="flex justify-between items-center mb-3">
+                <div className="mb-4">
+                    <div className="flex justify-between items-center mb-2">
                         <h4 className="text-l">{'Iterations'}</h4>
                         <span>{iterations}</span>
                     </div>
@@ -175,8 +175,8 @@ const Barnsley: NextPage = () => {
                         step={ITERATIONS_STEP}
                     />
                 </div>
-                <div className="mb-5">
-                    <div className="flex justify-between items-center mb-3">
+                <div className="mb-4">
+                    <div className="flex justify-between items-center mb-2">
                         <h4 className="text-l">{'Alpha'}</h4>
                         <span>{alpha}</span>
                     </div>
@@ -188,8 +188,8 @@ const Barnsley: NextPage = () => {
                         step={ALPHA_STEP}
                     />
                 </div>
-                <div className="mb-5">
-                    <div className="flex justify-between items-center mb-3">
+                <div className="mb-4">
+                    <div className="flex justify-between items-center mb-2">
                         <h4 className="text-l">{'Zoom'}</h4>
                         <span>{zoom}%</span>
                     </div>
@@ -201,16 +201,16 @@ const Barnsley: NextPage = () => {
                         step={ZOOM_STEP}
                     />
                 </div>
-                <div className="flex justify-between mb-5">
+                <div className="flex justify-between mb-4">
                     <div>
-                        <div className="flex justify-between items-center mb-3">
+                        <div className="flex justify-between items-center mb-2">
                             <h4 className="text-l">{'Fill Color'}</h4>
                         </div>
                         <HexColorPicker color={color} onChange={changeColor} />
                         <div>{color}</div>
                     </div>
                     <div>
-                        <div className="flex justify-between items-center mb-3">
+                        <div className="flex justify-between items-center mb-2">
                             <h4 className="text-l">{'Background Color'}</h4>
                         </div>
                         <HexColorPicker
