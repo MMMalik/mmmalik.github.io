@@ -21,6 +21,9 @@ jobs:
             - name: Build page
               run: pnpm build && pnpm export
 
+            - name: Disable default jekyll builds
+              run: cd out && touch .nojekyll
+
             - name: Deploy to GitHub Pages
               if: success()
               uses: crazy-max/ghaction-github-pages@v2
